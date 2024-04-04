@@ -122,13 +122,13 @@ Background.headparticle();
 $('.particlehead').before('<div class="background"></div>');
 
 // Establece el fondo en CSS
-// $('.background').css({
-//    'position': 'fixed',
-//    'top': 0,
-//    'left': 0,
-//    'width': '100%',
-//    'height': '100%',
-//    'background-image': 'url("/images/U1CmhF48T5CI0xSapFcppg_out.webp")', // Cambia 'ruta/de/la/imagen.jpg' por la ruta de tu imagen de fondo
-//    'background-size': 'cover',
-//    'z-index': -1 // Asegúrate de establecer un índice z para que esté detrás de otros elementos
-// });
+ $('.background').css({
+    'position': 'fixed',
+    'top': 0,
+    'left': 0,
+    'width': '100%',
+    'height': '100%',
+    'background-image': 'url("/images/Vm3wwqrxTmm1MT3_BGB4uA_out.webp")', 
+    'background-size': 'cover',
+    'z-index': -1 // Asegúrate de establecer un índice z para que esté detrás de otros elementos
+ });
